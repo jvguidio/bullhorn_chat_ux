@@ -135,6 +135,11 @@ export default function MessagingInputFooter(props) {
 
     return(
         <div className="messagingFooter">
+            <div className="victortest">
+                <label>First Item</label>
+                <label>Second Item</label>
+                <label>Third Item</label>
+            </div>
             <textarea className="messagingInputTextarea" 
                 placeholder="Type to send a message"
                 value={textareaContent}
